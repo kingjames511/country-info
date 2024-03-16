@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  position: relative;
+}
+.button1 {
+  margin-left: 45px;
+}
+.button1 button {
+  width: 150px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+.box1 {
+  width: 40%;
+}
+.info {
+  width: 50%;
+  padding: 15px;
+}
+.info h2 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  padding: 9px;
+}
+.flex {
+  display: flex;
+  gap: 90px;
+  width: 100%;
+  padding: 15px 10px;
+}
+.flex p {
+  margin: 10px 0;
+  font-size: 17px;
+  font-weight: 600;
+  /* font-style: oblique; */
+}
+.flex i {
+  color: rgb(198, 193, 193);
+  margin: 3px;
+  font-size: 14px;
+}
+.flex1 {
+  display: flex;
+  gap: 70px;
+  padding: 10px;
+}
+.flex1 button {
+  background-color: transparent;
+  border: 1px soild black;
+  padding: 3px 7px;
+  font-size: 16px;
+  width: 110px;
+}
+@media screen and (max-width: 500px) {
+  .box1 {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+    padding: 15px;
+  }
+  .flex {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .flex1 {
+    position: relative;
+    gap: 10px;
+    bottom: 0;
+  }
+  .flex1 button {
+    padding: 3px;
+    font-size: 16px;
+    width: 300px;
+    margin-top: 40px;
+  }
+  .flex1 h3 {
+    position: absolute;
+  }
+  .flex p {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .container {
+    position: relative;
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+}

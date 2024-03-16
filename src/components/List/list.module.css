@@ -1,0 +1,36 @@
+.list_container {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box {
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  padding: 0 0 15px 0;
+  margin: 30px 0;
+}
+.image_wraper img {
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.list_info {
+  padding: 6px;
+  margin: 10px;
+}
+.list_info h2 {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.list_info p {
+  padding: 0 7px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 500;
+}
